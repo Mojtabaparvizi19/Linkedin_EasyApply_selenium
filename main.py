@@ -14,10 +14,10 @@ sign_in = driver.find_element(By.CLASS_NAME, value="nav__button-secondary")
 sign_in.click()
 
 user_name_input = driver.find_element(By.ID, value="username")
-user_name_input.send_keys("mojtabaparvizi19@gmail.com")
+user_name_input.send_keys("************@gmail.com")
 
 password_input = driver.find_element(By.ID, value="password")
-password_input.send_keys("tekken66")
+password_input.send_keys("******")
 
 sign_in_button = driver.find_element(By.CSS_SELECTOR, value="div button")
 sign_in_button.click()
